@@ -55,7 +55,8 @@ Assumption: 1. That the Oracle has access to the elements(token values) of the c
 2.That we can load with a superposition of addresses (token addresses) data from a RAM, also called QRAM. 
 
 **Loading the values**
-<img src="<img src="https://latex.codecogs.com/gif.latex?|x\rangle_{\text{address}}|0\rangle_{\text{value}}&space;\rightarrow&space;|x\rangle_{\text{address}}|\textrm{load}(x)\oplus&space;0\rangle_{\text{value}}&space;=&space;|x\rangle_{\text{address}}|\textrm{load}(x)\rangle_{\text{value}}." title="|x\rangle_{\text{address}}|0\rangle_{\text{value}} \rightarrow |x\rangle_{\text{address}}|\textrm{load}(x)\oplus 0\rangle_{\text{value}} = |x\rangle_{\text{address}}|\textrm{load}(x)\rangle_{\text{value}}." />/>
+
+"<img src="https://latex.codecogs.com/gif.latex?|x\rangle_{\text{address}}|0\rangle_{\text{value}}&space;\rightarrow&space;|x\rangle_{\text{address}}|\textrm{load}(x)\oplus&space;0\rangle_{\text{value}}&space;=&space;|x\rangle_{\text{address}}|\textrm{load}(x)\rangle_{\text{value}}." title="|x\rangle_{\text{address}}|0\rangle_{\text{value}} \rightarrow |x\rangle_{\text{address}}|\textrm{load}(x)\oplus 0\rangle_{\text{value}} = |x\rangle_{\text{address}}|\textrm{load}(x)\rangle_{\text{value}}." />/>
 
 And then
 <img src="https://latex.codecogs.com/gif.latex?H^{\otimes&space;n}_{\text{address}}&space;|0\rangle_{\text{address}}|\textrm0\rangle_{\text{value}}=\frac1{2^{n/2}}\sum_{x=0}^{2^n-1}&space;|x\rangle_{\text{address}}|\textrm0\rangle_{\text{value}}" title="H^{\otimes n}_{\text{address}} |0\rangle_{\text{address}}|\textrm0\rangle_{\text{value}}=\frac1{2^{n/2}}\sum_{x=0}^{2^n-1} |x\rangle_{\text{address}}|\textrm0\rangle_{\text{value}}" />
