@@ -8,6 +8,8 @@
 
 **2.2 Flowchart**
 
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/e2506783-5ad0-48cd-9f0f-568416581cb0" id="Z4hkAMYc7fxp"></iframe></div>
+
 **3.1 IBM Qiskit Implmentation**
 
 IBM Qunatum Machines (ALL): https://quantum-computing.ibm.com/services?skip=0&systems=all
