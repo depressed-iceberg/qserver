@@ -1,6 +1,20 @@
 # qserver
 
-**Classical vs. Quantum (The case for quantum)**
+**1.1 Classical vs. Quantum (The case for quantum)**
+
+
+
+**2.1 Qserver**
+
+**2.2 Flowchart**
+
+**IBM Qiskit Implmentation**
+
+
+**AWS Braket implementation try**
+
+
+
 Sample Token: tok_1IHe3yAf0FnMgOaca3bOjzky
 
 Sample APIs: 
