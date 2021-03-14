@@ -15,3 +15,9 @@ POST /store {user_id: <user_id>, token: <token> }
  'qiskit-ibmq-provider': '0.12.1',
  'qiskit-aqua': '0.8.2',
  'qiskit': '0.24.0'}
+
+
+These are described by the following unitary evolution,
+https://latex.codecogs.com/gif.latex?U_f&space;\left|x&space;,&space;\bar&space;0&space;\right\rangle&space;=&space;\left|x,&space;f(x)\right\rangle.
+Here https://latex.codecogs.com/gif.latex?\left|x&space;,&space;\bar&space;0&space;\right\rangle&space;=&space;\left|x&space;\right\rangle&space;\otimes&space;\left|\bar&space;0&space;\right\rangle is used to represent a multi-qubit state consisting of two registers. The first register is in state  
+|x⟩, where  x is  is a binary representation of the input to our function. The number of qubits in this register is the number of bits required to represent the inputs.
