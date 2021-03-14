@@ -5,7 +5,11 @@
 
 
 **2.1 Qserver**
+(key, value) pairs can be stored using qubit registeres
+for example: for a 4 qubit system, 2 qubit registeres (2^2) can be used to store 4 keys and 2 registers to store 4 values.
 
+
+An actual circuit designed using Quirk (2 qubits for key, 2 for value and 5th to mark whether the 
 **2.2 Flowchart**
 
 <img src="https://lucid.app/publicSegments/view/fe988690-165a-4560-94b5-8a47c35dd040/image.png"/>
@@ -42,6 +46,8 @@ Development Specs:
 The Grover's Search algorithm is a quantum algorithm for searching an unsorted database with N entries in $O(\sqrt{N})$ time. Classically, it would take O(N) time where we would need to search all entries in order to find the desired one. While this is only a quadratic speedup, it is quite significant when $N$ is large.
 
 Given an unsorted list of $N$ elements, Grover's algorithm allows us to find a target element (in our case, a state) with $O(\sqrt N)$ operations or iterations. The reason why Grover's algorithm works so well (at least in theory) is because of its amplitude amplification, meaning it will single out the desired element without us having to search all the elements of the list.
+
+I think it is better to think of the quantum search algorithm as optimizing a function, instead of searching in a list/database. Hence, Grover's might not be the best algorithm for searching. 
 
 **4.1 AWS Braket implementation try** (remove)
 
