@@ -51,7 +51,26 @@ The Grover's Search algorithm is a quantum algorithm for searching an unsorted d
 
 Given an unsorted list of $N$ elements, Grover's algorithm allows us to find a target element (in our case, a state) with $O(\sqrt N)$ operations or iterations. The reason why Grover's algorithm works so well (at least in theory) is because of its amplitude amplification, meaning it will single out the desired element without us having to search all the elements of the list.
 
-I think it is better to think of the quantum search algorithm as optimizing a function, instead of searching in a list/database. Hence, Grover's might not be the best algorithm for searching. 
+Assumption: 1. That the Oracle has access to the elements(token values) of the classical list. 
+2.That we can load with a superposition of addresses (token addresses) data from a RAM, also called QRAM. 
+
+**Loading the values**
+<img src="https://latex.codecogs.com/gif.latex?|x\rangle_{\text{address}}|0\rangle_{\text{value}}&space;\rightarrow&space;|x\rangle_{\text{address}}|\textrm{load}(x)\oplus&space;0\rangle_{\text{value}}&space;=&space;|x\rangle_{\text{address}}|\textrm{load}(x)\rangle_{\text{value}}./>
+
+And then
+<img src="H^{\otimes n}_{\text{address}} |0\rangle_{\text{address}}|\textrm0\rangle_{\text{value}}=\frac1{2^{n/2}}\sum_{x=0}^{2^n-1} |x\rangle_{\text{address}}|\textrm0\rangle_{\text{value}}/>
+
+<img src="\text{apply load}\rightarrow\frac1{2^{n/2}}\sum_{x=0}^{2^n-1} |x\rangle_{\text{address}}|\textrm{load}(x)\rangle_{\text{value}}/>
+
+Firts apply the _Hadamard gates_ on the address register and then apply the _load operation_ on both registers. Then you will have a superposition of all values in the database an the value register.
+
+Next, apply GA on the value register with any oracle (think of it as an optimization function and what constraints it has; like looking a for a prime or a specific value). After 𝑂(√𝑁) iterations the correct answer will be measured with high probability. Thus, the correct solution together with the register address 𝑥∗ of the correct solution will be very likely measured.
+
+**Steps for Grover's**
+
+It is better to think of the quantum search algorithm as optimizing a function, instead of searching in a list/database. In an after thought, Grover's might not be the best algorithm for searching. 
+
+
 
 **4.1 AWS Braket implementation try** (remove)
 
