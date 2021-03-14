@@ -50,6 +50,6 @@ Here <img src="https://latex.codecogs.com/gif.latex?\left|x&space;,&space;\bar&s
  is used to represent a multi-qubit state consisting of two registers. The first register is in state  
 |x⟩, where  x is  is a binary representation of the input to our function. The number of qubits in this register is the number of bits required to represent the inputs.
 
-
+Original paper for Grover's algorithm : https://arxiv.org/pdf/quant-ph/9706005.pdf
 
 We acknowledge the use of IBM Quantum services for this work. The views expressed are those of the authors, and do not reflect the official policy or position of IBM or the IBM Quantum team.
