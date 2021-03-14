@@ -8,7 +8,7 @@
 
 **2.2 Flowchart**
 
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/e2506783-5ad0-48cd-9f0f-568416581cb0" id="Z4hkAMYc7fxp"></iframe></div>
+<img src="https://lucid.app/publicSegments/view/fe988690-165a-4560-94b5-8a47c35dd040/image.png"/>
 
 **3.1 IBM Qiskit Implmentation**
 
