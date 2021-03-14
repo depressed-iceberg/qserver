@@ -8,10 +8,10 @@
 
 **2.2 Flowchart**
 
-**IBM Qiskit Implmentation**
+**3.1 IBM Qiskit Implmentation**
 
 
-**AWS Braket implementation try**
+**4.1 AWS Braket implementation try**
 
 
 
