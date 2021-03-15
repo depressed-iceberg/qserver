@@ -81,8 +81,17 @@ Next, apply GA on the value register with any oracle (think of it as an optimiza
 
 **Steps for Grover's**
 
-It is better to think of the quantum search algorithm as optimizing a function, instead of searching in a list/database. In an after thought, Grover's might not be the best algorithm for searching. 
+Step 1: The amplitude amplification procedure starts out in the uniform superposition  
+|s⟩ , which is easily constructed from 
 
+Step 2: We apply the oracle reflection  Uf to the state|s⟩.
+
+Step 3: We now apply an additional reflection (Us) about the state U_s = 2|s\rangle\langle s| - \mathbb{1} This transformation maps the state to  UsUf|s⟩and completes the transformation.
+After t steps we will be in the state|ψt⟩where: |ψt⟩=(UsUf)t|s⟩.
+ 
+How many times do we need to apply the rotation? It turns out that roughly √N rotations suffice.
+
+It is better to think of the quantum search algorithm as optimizing a function, instead of searching in a list/database. In an after thought, Grover's might not be the best algorithm for searching. 
 
 
 These are described by the following unitary evolution,
