@@ -118,7 +118,8 @@ Note: this implementation of Shor’s algorithm uses 4𝑛+2 qubits, where 𝑛 
 
 
 **Other Resources**
-Microsoft Q# Qunatum Development Kit
+Microsoft Q# Qunatum Development Kit https://github.com/Microsoft/Quantum/
+
 Original paper for Grover's algorithm : https://arxiv.org/pdf/quant-ph/9706005.pdf
 
 We acknowledge the use of IBM Quantum services for this work. The views expressed are those of the authors, and do not reflect the official policy or position of IBM or the IBM Quantum team.
