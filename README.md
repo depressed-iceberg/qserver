@@ -5,6 +5,9 @@
 
 
 **2.1 Qserver**
+
+The Qserver in this setup uses Quantum computing to Decrypt the token which is encrypted by classical RSA encryption algorithm by factorizing the public key value. The token in this case is a small number used for simplicity as factorizing large numbers would take a long time since I only have access to Shor being run on a simulator on a classical machine. This onviously isn't the case for a quantum machine.
+
 (key, value) pairs can be stored using qubit registeres
 for example: for a 4 qubit system, 2 qubit registeres (2^2) can be used to store 4 keys and 2 registers to store 4 values.
 
@@ -90,6 +93,9 @@ Outputs from IBM computers in /images
 
 
 **3.3 Shor's Algorithm** 
+
+
+Note: this implementation of Shor’s algorithm uses 4𝑛+2 qubits, where 𝑛 is the number of bits representing the integer in binary. So in practice, for now, this implementation is restricted to factorizing small integers. Given the above value of N we compute 4𝑛+2 below and confirm the size from the actual circuit.
 
 **AWS Braket implementation: Tried but free tier is very limited** (remove)
 
