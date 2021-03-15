@@ -1,5 +1,10 @@
 # qserver
 
+Files:
+
+Qserver_Grovers1 : 4 bit Implmenetation of Grover's algorithm using unitary quantum gates on Qasm Simulator and 5 bit IBM QC ibmq_belem + ibmq_lima
+Qserver_Grovers2 : 5 bit implementation of Grover's algorithm using diffuser, oracle on statevector simulator and IBM QC ibmq_lima
+Qserver_Shors: Implmenets Shor's algorithm to decrypt a sample number
 **1.1 Classical vs. Quantum (The case for quantum)**
 
 
