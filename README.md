@@ -8,11 +8,12 @@ Qserver_Grovers2 : 5 bit implementation of Grover's algorithm using diffuser, or
 
 Qserver_Shors: Implmenets Shor's algorithm to decrypt a sample number
 
-**1.1 Classical vs. Quantum (The case for quantum)**
+To run: Upload to IBMQ Jupyter Notebooks and run
+
+AC folder contains a simple authentication server and API written using Flask and JWT. To run install the following Python packages:  pip install --upgrade flask pyopenssl cryptography pyjwt
 
 
-
-**2.1 Qserver**
+**1.1 Qserver**
 
 The Qserver in this setup uses Quantum computing to Decrypt the token which is encrypted by classical RSA encryption algorithm by factorizing the public key value. The token in this case is a small number used for simplicity as factorizing large numbers would take a long time since I only have access to Shor being run on a simulator on a classical machine. This onviously isn't the case for a quantum machine.
 
@@ -25,7 +26,7 @@ An actual circuit designed using Quirk (2 qubits for key, 2 for value and 5th to
 
 https://github.com/JoelLeach/QuantumDatabaseSearch
 
-**2.2 Flowchart**
+**1.2 Flowchart**
 
 <img src="https://lucid.app/publicSegments/view/fe988690-165a-4560-94b5-8a47c35dd040/image.png"/>
 
@@ -37,7 +38,6 @@ GET /get/<user_id>
 GET /check/<user_id>/<token>
 POST /store {user_id: <user_id>, token: <token> }
 
-Sample Token used: 
 
 **3.1 IBM Qiskit Implmentation**
 
