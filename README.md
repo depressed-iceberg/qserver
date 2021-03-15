@@ -68,7 +68,6 @@ Firts apply the _Hadamard gates_ on the address register and then apply the _loa
 Next, apply GA on the value register with any oracle (think of it as an optimization function and what constraints it has; like looking a for a prime or a specific value). After 𝑂(√𝑁) iterations the correct answer will be measured with high probability. Thus, the correct solution together with the register address 𝑥∗ of the correct solution will be very likely measured.
 
 
-
 **Steps for Grover's**
 
 It is better to think of the quantum search algorithm as optimizing a function, instead of searching in a list/database. In an after thought, Grover's might not be the best algorithm for searching. 
@@ -77,16 +76,6 @@ It is better to think of the quantum search algorithm as optimizing a function, 
 FILE: Qserver_Grovers1.ipynb
 & FILE: Qserver_Grovers2.ipynb 
 Outputs from IBM computers in /images
-
-**3.3 Shor's Algorithm** 
-
-**AWS Braket implementation: Tried but free tier is very limited** (remove)
-
-
-
-
-
-
 
 
 
@@ -97,6 +86,10 @@ These are described by the following unitary evolution,
 Here <img src="https://latex.codecogs.com/gif.latex?\left|x&space;,&space;\bar&space;0&space;\right\rangle&space;=&space;\left|x&space;\right\rangle&space;\otimes&space;\left|\bar&space;0&space;\right\rangle" title="\left|x , \bar 0 \right\rangle = \left|x \right\rangle \otimes \left|\bar 0 \right\rangle" />
  is used to represent a multi-qubit state consisting of two registers. The first register is in state  
 |x⟩, where  x is  is a binary representation of the input to our function. The number of qubits in this register is the number of bits required to represent the inputs.
+
+**3.3 Shor's Algorithm** 
+
+**AWS Braket implementation: Tried but free tier is very limited** (remove)
 
 
 **Other Resources**
